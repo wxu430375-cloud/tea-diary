@@ -1,0 +1,3454 @@
+{
+  "checkedAt": "2026-10-20",
+  "policy": "逐款人工审核名称与品牌。只接受品牌公开菜单/发布、公司披露、具名行业报道或实际门店售卖记录；聚合菜单不能单独证明存在。存在证据不等于当前全国在售，配料另行审核。",
+  "priorCount": 492,
+  "retainedCount": 85,
+  "withdrawnCount": 407,
+  "currentCount": 167,
+  "items": [
+    {
+      "id": "drink-0",
+      "brand": "yidian",
+      "name": "苹果茉莉绿",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-1",
+      "brand": "yidian",
+      "name": "苹果奶绿",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-2",
+      "brand": "yidian",
+      "name": "可可芭蕾",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-3",
+      "brand": "yidian",
+      "name": "波霸奶茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-4",
+      "brand": "yidian",
+      "name": "四季奶青",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-5",
+      "brand": "yidian",
+      "name": "A2牛乳红茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-6",
+      "brand": "yidian",
+      "name": "六窨茉莉绿茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-7",
+      "brand": "yidian",
+      "name": "四季春茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-8",
+      "brand": "yidian",
+      "name": "15颗龙眼茉莉绿",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-9",
+      "brand": "yidian",
+      "name": "15颗龙眼椰奶绿",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-10",
+      "brand": "yidian",
+      "name": "荔枝奶绿",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-11",
+      "brand": "coco",
+      "name": "红果小姐姐",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-12",
+      "brand": "coco",
+      "name": "鲜百香双响炮",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-13",
+      "brand": "coco",
+      "name": "奶茶三兄弟",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-14",
+      "brand": "coco",
+      "name": "生椰杨枝甘露",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-15",
+      "brand": "coco",
+      "name": "芒果阿达子",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-16",
+      "brand": "chagee",
+      "name": "伯牙绝弦",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-17",
+      "brand": "chagee",
+      "name": "青沫观音",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-18",
+      "brand": "chagee",
+      "name": "青青糯山",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-19",
+      "brand": "chagee",
+      "name": "桂馥兰香",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-20",
+      "brand": "chagee",
+      "name": "白雾红尘",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-21",
+      "brand": "chagee",
+      "name": "去云南·玫瑰普洱",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-22",
+      "brand": "mixue",
+      "name": "冰鲜柠檬水",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-23",
+      "brand": "mixue",
+      "name": "草莓摇摇奶昔",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-24",
+      "brand": "mixue",
+      "name": "茉莉奶绿",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-25",
+      "brand": "mixue",
+      "name": "棒打鲜橙",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "drink-26",
+      "brand": "mixue",
+      "name": "蜜桃四季春",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "drink-27",
+      "brand": "mixue",
+      "name": "芋圆葡萄",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "drink-28",
+      "brand": "guming",
+      "name": "云岭茉莉白",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-29",
+      "brand": "heytea",
+      "name": "多肉葡萄",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-30",
+      "brand": "molly",
+      "name": "白兰",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-31",
+      "brand": "molly",
+      "name": "白兰抹茶",
+      "status": "withdrawn",
+      "reason": "名称对应蛋糕；正确饮品抹茶白兰另行收录"
+    },
+    {
+      "id": "drink-32",
+      "brand": "molly",
+      "name": "一朵茉莉花",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-33",
+      "brand": "chabaidao",
+      "name": "豆乳玉麒麟",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-34",
+      "brand": "auntie",
+      "name": "血糯米奶茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-35",
+      "brand": "nayuki",
+      "name": "霸气芝士草莓",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "drink-36",
+      "brand": "chayan",
+      "name": "幽兰拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-c1d6c8b248379134",
+      "brand": "yidian",
+      "name": "养乐多绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3aab46ca8750dcb2",
+      "brand": "yidian",
+      "name": "阿华田",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-969800df76373e28",
+      "brand": "yidian",
+      "name": "冰淇淋红茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-1ff38f485816bd15",
+      "brand": "yidian",
+      "name": "米麻薯草莓奶绿(旧)",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-050500b1389a8b9c",
+      "brand": "yidian",
+      "name": "甘蔗马蹄青",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a739032fc36ec512",
+      "brand": "yidian",
+      "name": "桂花奇韵观音",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8a6a3c5c7dc955de",
+      "brand": "yidian",
+      "name": "观音柠檬奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e1774c0314c22097",
+      "brand": "yidian",
+      "name": "可可玫瑰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f36a2eda5bc99675",
+      "brand": "yidian",
+      "name": "A2牛乳奇韵观音",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5cf4434629fa228c",
+      "brand": "yidian",
+      "name": "奇韵观音玛奇朵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-258ab864472dcd1e",
+      "brand": "yidian",
+      "name": "奇韵观音奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7cc30f4f0eb2af53",
+      "brand": "yidian",
+      "name": "奇韵观音",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-727e71bcaf5a950b",
+      "brand": "yidian",
+      "name": "富桂观音奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8089737b36c39753",
+      "brand": "yidian",
+      "name": "百香芒芒绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6a6bdef8fb5d6fda",
+      "brand": "yidian",
+      "name": "山楂绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-53aa5363a4e1f068",
+      "brand": "yidian",
+      "name": "茉香玫莓",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-aaa72fae1dfb66b3",
+      "brand": "yidian",
+      "name": "柠芭一下",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2ced41d882a65383",
+      "brand": "yidian",
+      "name": "粉波霸桂花奶乌",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7de4ed13432be9a2",
+      "brand": "yidian",
+      "name": "只此青柠",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-af288da779182931",
+      "brand": "yidian",
+      "name": "乌龙奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-97b8447b9669ecff",
+      "brand": "yidian",
+      "name": "四季玛奇朵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cf691167848c72ca",
+      "brand": "yidian",
+      "name": "椰奶奶青",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a54dc2353f73c9c3",
+      "brand": "yidian",
+      "name": "混珠奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-503111800020e423",
+      "brand": "yidian",
+      "name": "粉条奶乌",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-bd3e63520b352eb0",
+      "brand": "yidian",
+      "name": "茶冻乌龙蜜",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c692a6bc866b370f",
+      "brand": "yidian",
+      "name": "米酿奶绿小丸子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-08a2d18e4eea7234",
+      "brand": "yidian",
+      "name": "米酿乌龙小丸子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-bfa89b0e5b90abd7",
+      "brand": "yidian",
+      "name": "桂花米酿乌龙",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3d4cdb1f028c45b7",
+      "brand": "yidian",
+      "name": "桂花米酿奶绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cf78589c76394d56",
+      "brand": "yidian",
+      "name": "A2牛乳绿茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6f05c330bc930414",
+      "brand": "yidian",
+      "name": "A2牛乳阿华田",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-bb59892810ffd9bd",
+      "brand": "yidian",
+      "name": "A2牛乳绿装芒",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-93088ee73aeac218",
+      "brand": "yidian",
+      "name": "蔗四季甄牛",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cbba7cbf3cc0643a",
+      "brand": "coco",
+      "name": "珍珠奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2531c26d21b0a7ed",
+      "brand": "coco",
+      "name": "雪域咸酪青稞奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-25166b58eae4ead8",
+      "brand": "coco",
+      "name": "雪域咸酪青稞牛乳茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d33123af053fe523",
+      "brand": "coco",
+      "name": "雪域鲜芋青稞牛奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-1102416d23c17cfe",
+      "brand": "coco",
+      "name": "黑糖珍珠奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-24b06d640dc9a698",
+      "brand": "coco",
+      "name": "手打柠檬茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-56889874eb1a255b",
+      "brand": "coco",
+      "name": "柠檬奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-db64912933ea18eb",
+      "brand": "coco",
+      "name": "莓莓酸奶双重奏",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-617fc62d960304d2",
+      "brand": "coco",
+      "name": "消忧凤梨泡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9ba5ac0f1ebb6539",
+      "brand": "coco",
+      "name": "解忧苹气泡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7c2a685bf1ab0ff1",
+      "brand": "coco",
+      "name": "忘忧葡气泡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-57361b37867011bc",
+      "brand": "coco",
+      "name": "榴光橘子海(石榴茶)",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-58aabe9d02cb36c6",
+      "brand": "coco",
+      "name": "黑糖生椰拿铁咖啡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-44c5aace537583b0",
+      "brand": "coco",
+      "name": "日落榴光(石榴冰)",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6a4b7144bbdbc101",
+      "brand": "coco",
+      "name": "加油牛油果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6290fd69ed9a930d",
+      "brand": "coco",
+      "name": "牛油果橙橙",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cdd0a1426be884b4",
+      "brand": "coco",
+      "name": "莓莓小姐姐",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-efe18e834b4cdede",
+      "brand": "coco",
+      "name": "莓莓冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-650ae77c3e032b5e",
+      "brand": "coco",
+      "name": "葡萄冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c21370af1e073d91",
+      "brand": "coco",
+      "name": "轻轻柠檬冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cae01eab6ce75f7c",
+      "brand": "coco",
+      "name": "蜜恋桃桃",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9c6838da430299a0",
+      "brand": "coco",
+      "name": "桃气泡泡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c76ba1d3344ae3ad",
+      "brand": "coco",
+      "name": "四季珍珠奶青",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-41cb15f97eba763f",
+      "brand": "coco",
+      "name": "四季春茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-56749466641cf3c3",
+      "brand": "coco",
+      "name": "手打柠檬四季春",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2eb2793806c8c85b",
+      "brand": "coco",
+      "name": "苹果大红袍",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-290043511ba5ad11",
+      "brand": "coco",
+      "name": "苹果奶绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7a9a9d3e25eed6a0",
+      "brand": "coco",
+      "name": "苹果气泡美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-853bee1c431b8768",
+      "brand": "coco",
+      "name": "超级羽衣甘蓝杯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-341f363748475685",
+      "brand": "coco",
+      "name": "现煮绿豆冰含啵啵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0109d4efcdfad7cd",
+      "brand": "coco",
+      "name": "现煮绿豆牛奶冰含啵啵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5f967f51ca737665",
+      "brand": "coco",
+      "name": "双倍鲜芋雪冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-05a007de0eb061eb",
+      "brand": "coco",
+      "name": "快乐小狗·西瓜椰椰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e53675dd77271bac",
+      "brand": "coco",
+      "name": "现煮绿豆木薯冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-31c184ad919bb86a",
+      "brand": "chagee",
+      "name": "寻香山茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-58b3dd275879366e",
+      "brand": "chagee",
+      "name": "花田乌龙",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-ac5cba440942c955",
+      "brand": "chagee",
+      "name": "金乌扶摇",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2883306d9d9a225f",
+      "brand": "chagee",
+      "name": "归云南·日照金山",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e515fbdfa84f2f88",
+      "brand": "chagee",
+      "name": "归云南·小黄油熟普",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d99c246e8be81b58",
+      "brand": "chagee",
+      "name": "云酿玫瑰奶白酒「云南限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3f1dca1d1d90bf58",
+      "brand": "chagee",
+      "name": "云雾流沙黄油啤「山东限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f4426daf6e7d1785",
+      "brand": "chagee",
+      "name": "云巧藏可可「川藏限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f1a12aa216e65fbd",
+      "brand": "chagee",
+      "name": "雅安藏茶茶拿铁「川藏限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-30a012b8189851b2",
+      "brand": "chagee",
+      "name": "晚山红雾「重庆限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f4a0fdb737b8b587",
+      "brand": "chagee",
+      "name": "泰奶茶拿铁「上海限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-87f943e5b61d57a3",
+      "brand": "chagee",
+      "name": "泰奶云朵粿粿「上海限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0d9f10075ae83aa4",
+      "brand": "chagee",
+      "name": "川上行歌「川藏限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e478552a28281a24",
+      "brand": "chagee",
+      "name": "海屿青雾「山东限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-23c898b85c4dcc80",
+      "brand": "chagee",
+      "name": "青柠桃子海「山东限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-4604fb79c373937c",
+      "brand": "chagee",
+      "name": "海屿雾「山东限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-065eab9fa9c70416",
+      "brand": "chagee",
+      "name": "橙栀白糯米酸奶「湖南限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8b1838a61fe10085",
+      "brand": "chagee",
+      "name": "穗穗迎风",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-58efe893485a6591",
+      "brand": "chagee",
+      "name": "泰奶茶拿铁「广东限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-15cb623bcda5a3f2",
+      "brand": "chagee",
+      "name": "泰奶云朵粿粿「广东限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f9ed990b01a820ee",
+      "brand": "chagee",
+      "name": "穗穗米乳",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-79bf8b6222965dca",
+      "brand": "chagee",
+      "name": "穗穗麦果梨",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7d871d1583f26593",
+      "brand": "chagee",
+      "name": "黑糖糯珍珠牛乳「广西限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e765ee98cec36ead",
+      "brand": "chagee",
+      "name": "黑糖糯珍珠牛乳茶「广西限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-67db6f7da9378974",
+      "brand": "chagee",
+      "name": "梨栖玉露「湖北限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d0f157c2654a9d64",
+      "brand": "chagee",
+      "name": "云柚玉露「湖北限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2d7e755e68777292",
+      "brand": "chagee",
+      "name": "云柚露「湖北限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9ab111e0f4998ed0",
+      "brand": "chagee",
+      "name": "抹茶柚子鲜酪「湖北限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8bde1dcc30161c27",
+      "brand": "chagee",
+      "name": "金芒杨枝甘露「海南限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9bb6b49e616e7679",
+      "brand": "chagee",
+      "name": "酸奶球球杨枝甘露「海南限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b19be588d1fb8792",
+      "brand": "chagee",
+      "name": "金芒杨枝甘露「北京限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cd2c032021ff24aa",
+      "brand": "chagee",
+      "name": "酸奶球球杨枝甘露「北京限定」",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a0dde59b5e33eaf3",
+      "brand": "chagee",
+      "name": "桂馥兰香茶拉朵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7db6f0d66cd0e7aa",
+      "brand": "mixue",
+      "name": "柠檬红茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c9eb925cbf4c8a26",
+      "brand": "mixue",
+      "name": "满杯百香果",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-960511c4eba41e7a",
+      "brand": "mixue",
+      "name": "珍珠奶茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-3ca4746ad67ec8c1",
+      "brand": "mixue",
+      "name": "雪王大圣代（芒果味）",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-28a8bdbc71b815eb",
+      "brand": "mixue",
+      "name": "雪王大圣代（草莓味）",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-67f3906ac418e612",
+      "brand": "mixue",
+      "name": "抹茶摇摇奶昔",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b1dbf1ef234438cc",
+      "brand": "mixue",
+      "name": "抹茶脆皮大圣代",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-3ec2292616a70e82",
+      "brand": "mixue",
+      "name": "满杯玉米",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-dd877b7be369b3e4",
+      "brand": "mixue",
+      "name": "芝士奶盖玉米",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-edeedca3f9ed6a3f",
+      "brand": "mixue",
+      "name": "蜜瓜冰淇淋",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-b6d3831dfb9a3ddc",
+      "brand": "mixue",
+      "name": "蜜瓜摇摇冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c6863c1a907a9fa0",
+      "brand": "mixue",
+      "name": "蜜瓜脆皮小圣代",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-112a4662519b912b",
+      "brand": "mixue",
+      "name": "蜜瓜双炫冰淇淋",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-a239b5ed0bda7a08",
+      "brand": "mixue",
+      "name": "黑糖珍珠大圣代",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-ed86f9c4f696049d",
+      "brand": "mixue",
+      "name": "蜜瓜脆皮大圣代",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-84846c88ed749eb1",
+      "brand": "mixue",
+      "name": "薄荷双炫冰淇淋",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-37bd16a19c86eede",
+      "brand": "mixue",
+      "name": "薄荷冰淇淋",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-98b1689741d270cd",
+      "brand": "mixue",
+      "name": "薄荷脆皮大圣代",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-75bb4cf1b1543250",
+      "brand": "mixue",
+      "name": "新鲜冰淇淋",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-cf003b075169f736",
+      "brand": "mixue",
+      "name": "雪王雪顶龙井",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cae08ad46be9a4e1",
+      "brand": "mixue",
+      "name": "雪落冰川圣代碗",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-34cfbdf509cc8bf4",
+      "brand": "mixue",
+      "name": "雪王大圣代(黑糖珍珠味)",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-34cd02995d1a0a10",
+      "brand": "mixue",
+      "name": "黑糖全冰美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-354bc2c9af1c163e",
+      "brand": "mixue",
+      "name": "黑糖珍珠鲜牛乳",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-4df72435af458859",
+      "brand": "mixue",
+      "name": "好柿多多",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-04d1396b200195f3",
+      "brand": "mixue",
+      "name": "好柿椰椰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-4fd383e49e458058",
+      "brand": "mixue",
+      "name": "牛油果酸奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-524a9650241b95bd",
+      "brand": "mixue",
+      "name": "牛油果甘露",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-28697f7d80d18390",
+      "brand": "mixue",
+      "name": "草莓奶麻薯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-704784ff089a7964",
+      "brand": "mixue",
+      "name": "芒果奶麻薯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-10f6d227355a1421",
+      "brand": "mixue",
+      "name": "芝士葡萄",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0d47c5817771a0cd",
+      "brand": "mixue",
+      "name": "香柠龙井霸气桶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-27f044fb96473f97",
+      "brand": "mixue",
+      "name": "香柠蓝莓霸气桶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-94e9cf4aab0fe871",
+      "brand": "mixue",
+      "name": "黑糖珍珠撞奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-225e42f21bd8f076",
+      "brand": "guming",
+      "name": "超A芝士葡萄",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-89c226fe8feed197",
+      "brand": "guming",
+      "name": "大叔奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3f75273cef533411",
+      "brand": "guming",
+      "name": "茉莉奶绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d24c0314d9e91e1f",
+      "brand": "guming",
+      "name": "杨枝甘露轻盈版",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9d7f1a1eefed493e",
+      "brand": "guming",
+      "name": "金桂酒酿拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e6592c73d21440d0",
+      "brand": "guming",
+      "name": "大柚作为拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f084e3970d21cc9a",
+      "brand": "guming",
+      "name": "云雾栀子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-1c2e9f70877de90b",
+      "brand": "guming",
+      "name": "大柚糯米酸奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-41d4bf83c7425b87",
+      "brand": "guming",
+      "name": "大柚冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a27bb19820ef9027",
+      "brand": "guming",
+      "name": "HPP·奇兰乌龙",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3b1a0d3d67bc1af2",
+      "brand": "guming",
+      "name": "HPP·茉莉银针",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-377a7f1a6328688f",
+      "brand": "guming",
+      "name": "三重抹茶慕斯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d733859b25653d0a",
+      "brand": "guming",
+      "name": "红颜石榴汁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-9752304feae48ef0",
+      "brand": "guming",
+      "name": "满杯红玉石榴",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e8320fcab1706d0e",
+      "brand": "guming",
+      "name": "红玉石榴葡萄",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-be28ae531fc177d8",
+      "brand": "guming",
+      "name": "苹果油柑美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-440484a2478ac16a",
+      "brand": "guming",
+      "name": "苹果杨桃油柑",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-27de7e5522c21413",
+      "brand": "guming",
+      "name": "苹果大红袍",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0cb2bd340b862e86",
+      "brand": "guming",
+      "name": "直火乌龙Pro",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7ddce7432995d43f",
+      "brand": "guming",
+      "name": "咸奶油大红袍",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-995606e67602e817",
+      "brand": "guming",
+      "name": "胡萝卜果蔬",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e629c259772115d1",
+      "brand": "guming",
+      "name": "咸奶油美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-443d875c06618a98",
+      "brand": "guming",
+      "name": "超大杯冰美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-879c303940c2cee5",
+      "brand": "guming",
+      "name": "泰橘美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-570cf9f81b86a8d3",
+      "brand": "guming",
+      "name": "泰橘糯米酸奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-06da194a5f27748c",
+      "brand": "guming",
+      "name": "泰橘冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b6b79e6ddc3b0a53",
+      "brand": "guming",
+      "name": "提拉米苏",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f3778847c63efbab",
+      "brand": "guming",
+      "name": "马上有米拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-2a07d6794b035d24",
+      "brand": "guming",
+      "name": "全冰有米美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a7c3abc206cac7c2",
+      "brand": "guming",
+      "name": "咸乳酪泰有米",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-4b7a01f3271b9ba3",
+      "brand": "guming",
+      "name": "甜心芭乐葡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-390c5266419b1272",
+      "brand": "guming",
+      "name": "芭乐冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7181ce1287af49c3",
+      "brand": "guming",
+      "name": "苦尽柑来拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-d68e48dfafe665e9",
+      "brand": "guming",
+      "name": "桃桃糯米酸奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-51f308c8c9ec3651",
+      "brand": "guming",
+      "name": "鲜叶糯米酸奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e60cb466660078bf",
+      "brand": "heytea",
+      "name": "酷黑莓桑",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-2b294990412bb041",
+      "brand": "heytea",
+      "name": "满杯红柚",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-38570ab7ca5271fb",
+      "brand": "heytea",
+      "name": "芒芒甘露",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-2c4805180dd75800",
+      "brand": "heytea",
+      "name": "芒椰糯米饭·LISA灵感周边",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-599022a1201d6a8c",
+      "brand": "heytea",
+      "name": "鲜萃·山青乌龙",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c19d02999746e2bd",
+      "brand": "heytea",
+      "name": "鲜萃·白露栀子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2994b3505f4a0a18",
+      "brand": "heytea",
+      "name": "鲜萃·九窨茉王",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-714d67506027d063",
+      "brand": "heytea",
+      "name": "闽东丹红·云朵茶拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-078dc27a43f8cc84",
+      "brand": "heytea",
+      "name": "热闽东丹红·云朵茶拿铁",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-fa48a9355ba9facd",
+      "brand": "heytea",
+      "name": "热暮春黄茶·手煮乳茶",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-2234d7407351a7bf",
+      "brand": "heytea",
+      "name": "热娟姗·花仙茉莉",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-0747a589029de497",
+      "brand": "heytea",
+      "name": "热娟姗·沉香乌龙",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-7dfad931622ec7b9",
+      "brand": "heytea",
+      "name": "暮春黄茶·手煮乳茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-007bf9d6d838b00e",
+      "brand": "heytea",
+      "name": "工夫丹红·手煮乳茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-bf0fccd4d8f4c536",
+      "brand": "heytea",
+      "name": "娟姗·沉香乌龙",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d9daab98d31a3eec",
+      "brand": "heytea",
+      "name": "娟姗·花仙茉莉",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5db1cbc8c4ff9b68",
+      "brand": "heytea",
+      "name": "娟姗·福鼎白茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c613c7eaa19db749",
+      "brand": "heytea",
+      "name": "暮春黄茶·冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3973836617ba3e41",
+      "brand": "heytea",
+      "name": "沉香乌龙·冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c43e914f80f93a51",
+      "brand": "heytea",
+      "name": "工夫丹红·冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-ef8052b95fcc1139",
+      "brand": "heytea",
+      "name": "福鼎白茶·冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b2360a1dc15fa46b",
+      "brand": "heytea",
+      "name": "青柠生乳希腊酸奶*手炒冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-216636d7e65718e9",
+      "brand": "heytea",
+      "name": "芋泥波波牛乳2018",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7cd8b553bfc13c94",
+      "brand": "heytea",
+      "name": "芋泥波波牛乳茶2018",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-49a6e04f24acb2c5",
+      "brand": "heytea",
+      "name": "热芋泥波波牛乳2018",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-1a67fcb530a54947",
+      "brand": "heytea",
+      "name": "热芋泥波波牛乳茶2018",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-82375837837483ce",
+      "brand": "heytea",
+      "name": "爆芋泥生椰手炒冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c5cb8c8d8cd1c369",
+      "brand": "heytea",
+      "name": "猫山王爆榴莲蛋糕",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-49cd25628b2a2265",
+      "brand": "heytea",
+      "name": "雪毫茉王芭乐",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f05edc9cd4c808d5",
+      "brand": "heytea",
+      "name": "喜柿多多喜拉朵",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-dd322c65d813ce70",
+      "brand": "heytea",
+      "name": "雪毫茉王芭乐-美大团购",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5dfd1d795729d996",
+      "brand": "heytea",
+      "name": "中秋限定·一茶一酥",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-a7de83b334b69c1e",
+      "brand": "heytea",
+      "name": "中秋限定·人气双杯",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-aac6332678ad31f1",
+      "brand": "heytea",
+      "name": "超多肉椰椰芒芒",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-db5032824782baf4",
+      "brand": "heytea",
+      "name": "喜拉朵双口味",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-9f2f63fc19269190",
+      "brand": "nayuki",
+      "name": "霸气杨枝甘露",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-de0326e16444966e",
+      "brand": "nayuki",
+      "name": "霸气橙子",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-099c29131b8e4ec2",
+      "brand": "nayuki",
+      "name": "烤布蕾红苹果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a9e0bd9485e8423b",
+      "brand": "nayuki",
+      "name": "熔岩法式可可慕斯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-78375b5e0c55e193",
+      "brand": "nayuki",
+      "name": "法式可可草莓摩卡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d3244c94bd2e1f19",
+      "brand": "nayuki",
+      "name": "霸气小红杏桃桃",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-117a974d49bcef77",
+      "brand": "nayuki",
+      "name": "初雪柠酪泰橘(有顶)",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-502e62bc71200bce",
+      "brand": "nayuki",
+      "name": "初雪轻酪红苹果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-63665446d9f6ea33",
+      "brand": "nayuki",
+      "name": "初雪轻酪蓝莓",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5c4a398f494f0883",
+      "brand": "nayuki",
+      "name": "初雪轻酪泰橘",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9f9af6164f5e9bfd",
+      "brand": "nayuki",
+      "name": "初雪柠酪泰橘",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d096c79deb0f154d",
+      "brand": "nayuki",
+      "name": "泰橘3倍超C小橙瓶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cd8dec4bf811f059",
+      "brand": "nayuki",
+      "name": "400次金桂米酿奶咖",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2ff35e895545fec2",
+      "brand": "nayuki",
+      "name": "霸气小红杏酸奶冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f116f9e39351694c",
+      "brand": "nayuki",
+      "name": "霸气一桶美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c26e257e8e2ebc8f",
+      "brand": "nayuki",
+      "name": "霸气芝士葡萄",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-fd3737b9cd35fd65",
+      "brand": "nayuki",
+      "name": "霸气芝士芒果",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-794c82668972b512",
+      "brand": "nayuki",
+      "name": "霸气青柑柠檬茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6d245a238a331d45",
+      "brand": "nayuki",
+      "name": "初雪云酪苹果冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-80f82199be70f9ae",
+      "brand": "nayuki",
+      "name": "鸭屎香乌龙纯茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a3ff8cd9f4892012",
+      "brand": "nayuki",
+      "name": "落日橘子海·奶咖",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0290de6f6821ec7f",
+      "brand": "nayuki",
+      "name": "霸气油柑奇异果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-955bfc5905adcf10",
+      "brand": "nayuki",
+      "name": "霸气一桶油柑奇异果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-facfb75927bd2002",
+      "brand": "nayuki",
+      "name": "草莓牛油果燕麦酸奶昔",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7237598657888f90",
+      "brand": "nayuki",
+      "name": "小青柑汤力气泡美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-565c00f81dce0eff",
+      "brand": "nayuki",
+      "name": "超C大橘汤力气泡美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f2172f7e8e50313f",
+      "brand": "nayuki",
+      "name": "奇异果超C小绿瓶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-50df2686c7741de5",
+      "brand": "nayuki",
+      "name": "奈雪3倍超C小绿瓶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c85f73fd7b1bc92e",
+      "brand": "nayuki",
+      "name": "蜜香单丛冷泡茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c2809315fcc7991f",
+      "brand": "nayuki",
+      "name": "茉莉初雪冷泡茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5246a5f13154e3cf",
+      "brand": "nayuki",
+      "name": "手打超C大橘冰砖美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-63dcacab8067f629",
+      "brand": "nayuki",
+      "name": "超醒手打柠檬冰砖美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f7b2f72dc775ba12",
+      "brand": "nayuki",
+      "name": "超C大橘美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-574640c6a5d59f45",
+      "brand": "nayuki",
+      "name": "Gelato芭乐冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-acb98e7cd78acbe1",
+      "brand": "nayuki",
+      "name": "冰砖美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b3f777a3419e4a45",
+      "brand": "nayuki",
+      "name": "黄皮蜜桃冰砖美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-eb72e6a5bbc705d2",
+      "brand": "molly",
+      "name": "茉莉奶白",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-c87d647d0ba0c1ef",
+      "brand": "molly",
+      "name": "针王葡萄",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-15fbd54d03405adb",
+      "brand": "molly",
+      "name": "苹果与橄榄",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d98762f38af9fa81",
+      "brand": "molly",
+      "name": "黑金啤与树番茄",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0644d837c9ce10b1",
+      "brand": "molly",
+      "name": "黑金啤与青苹果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-656c7757c303a631",
+      "brand": "molly",
+      "name": "单丛粉粿小黄姜",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-abd0ec46179f9186",
+      "brand": "molly",
+      "name": "单丛与小黄姜",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-65dc5258ccfff5b2",
+      "brand": "molly",
+      "name": "白兰与柿子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2c144d06fd99d01c",
+      "brand": "molly",
+      "name": "白兰柿子树番茄",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9a6b0e4a5bb882d6",
+      "brand": "molly",
+      "name": "抹茶针王(热)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-89761fd8eed7e93b",
+      "brand": "molly",
+      "name": "甜菜莓莓冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6a6c5bd3c67f614a",
+      "brand": "molly",
+      "name": "咸奶萃米布碎银子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-19b56e2652db1b94",
+      "brand": "molly",
+      "name": "针王橘子(热)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-8a5e4f01a8da66d3",
+      "brand": "molly",
+      "name": "白兰(热)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-7c8d626b0f3620f6",
+      "brand": "molly",
+      "name": "栀子奶白(热)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-56accce00e57ee85",
+      "brand": "molly",
+      "name": "茉莉奶白(热)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-3b91362eda9de157",
+      "brand": "molly",
+      "name": "针王与维也纳",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-eab2e27bd13af13d",
+      "brand": "molly",
+      "name": "白兰与维也纳",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2ef4ad51e4f3d07c",
+      "brand": "molly",
+      "name": "咸奶萃碎银子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0041f2890a3bfa29",
+      "brand": "molly",
+      "name": "四季酸木瓜橄榄杏",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-05993c5e165ec979",
+      "brand": "molly",
+      "name": "开心加倍茉莉椰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-60c6e5cd7d330115",
+      "brand": "molly",
+      "name": "三朵玉兰咖啡特调",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8c5786f28994a63a",
+      "brand": "molly",
+      "name": "玉兰花语咖啡特调",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cd3e7ff57da29b04",
+      "brand": "molly",
+      "name": "单丛奶霜苹果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2e6cc74a008e7c59",
+      "brand": "molly",
+      "name": "单丛与苹果",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9b82e2cacf1709b9",
+      "brand": "molly",
+      "name": "单丛与苹果杏",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-dd0aac997dd6a27d",
+      "brand": "molly",
+      "name": "针王橘子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-962180b7e62e57ec",
+      "brand": "molly",
+      "name": "针王苹果",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-eb6e093e96a90d31",
+      "brand": "molly",
+      "name": "三朵玉兰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-793a810e28303c71",
+      "brand": "molly",
+      "name": "玉兰花语",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-629bb8271639f1cf",
+      "brand": "molly",
+      "name": "针王奶霜橘子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0332a68da3f6e123",
+      "brand": "molly",
+      "name": "白兰与树番茄",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-3b73742bbf1973c2",
+      "brand": "molly",
+      "name": "针王香柠",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5f9d42d6c7ad0883",
+      "brand": "chabaidao",
+      "name": "生椰拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-80f36572d0f6a51c",
+      "brand": "chabaidao",
+      "name": "芒果冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-58545bf869c67db1",
+      "brand": "chabaidao",
+      "name": "茉莉奶绿",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-6820e4e8269b5ef5",
+      "brand": "chabaidao",
+      "name": "杨枝甘露",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-3949318a323fa12f",
+      "brand": "chabaidao",
+      "name": "一抹生椰麻薯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-19b28fe2de422f05",
+      "brand": "chabaidao",
+      "name": "一抹粉芭乐",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b124c3c5be478b7d",
+      "brand": "chabaidao",
+      "name": "黄金百香芒果冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-af1e2ac1ca687876",
+      "brand": "chabaidao",
+      "name": "鲜奶拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-570dd0f323b906c3",
+      "brand": "chabaidao",
+      "name": "固体杨枝甘露甜品杯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5a851c85a5781cc4",
+      "brand": "chabaidao",
+      "name": "焦糖饼干拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0ce88f9c93cac0c2",
+      "brand": "chabaidao",
+      "name": "超厚芋泥金牡丹",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5469aa75d854a5d8",
+      "brand": "chabaidao",
+      "name": "苹果派云顶美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5eda615ff7601cd3",
+      "brand": "chabaidao",
+      "name": "岭南龙眼珍珠",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-dcc273cd7913f8e9",
+      "brand": "chabaidao",
+      "name": "芭乐青提酸奶杯",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9a67dec093748513",
+      "brand": "chabaidao",
+      "name": "奶绿旋风",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-06f6ce691b125dba",
+      "brand": "chabaidao",
+      "name": "香草金牡丹鲜奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9d4032a4c2ff63c1",
+      "brand": "chabaidao",
+      "name": "岭南龙眼啵啵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8313fbed5d8524d0",
+      "brand": "chabaidao",
+      "name": "金喜凤梨",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f340c125f8e19ca6",
+      "brand": "chabaidao",
+      "name": "香草金牡丹牛乳",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-831dc39d00c39046",
+      "brand": "chabaidao",
+      "name": "焦糖饼干奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-70d92064b6389907",
+      "brand": "chabaidao",
+      "name": "岭南龙眼冰奶(联名杯)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-9463ecb094adc72e",
+      "brand": "chabaidao",
+      "name": "杨枝甘露(联名杯)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-80795db14cd40912",
+      "brand": "chabaidao",
+      "name": "青提茉莉(联名杯)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-554e6484a9afa578",
+      "brand": "chabaidao",
+      "name": "葡萄冻冻(联名杯)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-9a8d0a220872ac6a",
+      "brand": "chabaidao",
+      "name": "西瓜啵啵(联名杯)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-ee5be17217641d4e",
+      "brand": "chabaidao",
+      "name": "鲜奶茉莉奶绿(联名杯)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-265382dc9c68e8bc",
+      "brand": "chabaidao",
+      "name": "岭南龙眼冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d4e983ca90ae2d89",
+      "brand": "chabaidao",
+      "name": "血糯米奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-dde52da74e07ab13",
+      "brand": "chabaidao",
+      "name": "酒酿奶绿小丸子",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8443a5063f549593",
+      "brand": "chabaidao",
+      "name": "柠檬巴巴露亚拿铁(杯套&贴纸)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-0fa4081aca0e1e1b",
+      "brand": "chabaidao",
+      "name": "虎斑橘拿铁(杯套&贴纸)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-835bbe5f5ecb916b",
+      "brand": "chabaidao",
+      "name": "瑰夏凤梨流沙美式(杯套&贴纸)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-421966cf7157a766",
+      "brand": "chabaidao",
+      "name": "生椰拿铁(杯套&贴纸)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-a754dda76dd757dd",
+      "brand": "chabaidao",
+      "name": "柠檬巴巴露亚拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-af8d64a39d5fe098",
+      "brand": "chabaidao",
+      "name": "茉莉奶绿牛乳(联名杯)",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-2618f416a32c9712",
+      "brand": "auntie",
+      "name": "手作黑糖波波牛乳茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-ffa554f1e464dd48",
+      "brand": "auntie",
+      "name": "桃桃蜜柚",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-bbca3e43985fa0f2",
+      "brand": "auntie",
+      "name": "杨枝甘露经典版",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e14318da8cbf456e",
+      "brand": "auntie",
+      "name": "芝香香蕉拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c5904f066fdc1d96",
+      "brand": "auntie",
+      "name": "不蕉不躁（香蕉冰奶）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a7ad062ab62527c2",
+      "brand": "auntie",
+      "name": "抹掉蕉绿（千目抹茶香蕉）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cc0153e0f55970dc",
+      "brand": "auntie",
+      "name": "糖烤板栗锡兰奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-96da78fc65b9070a",
+      "brand": "auntie",
+      "name": "糖烤板栗奇兰奶茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-de93e2e86fd7889f",
+      "brand": "auntie",
+      "name": "琥珀锡兰红茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-fd4873cb2c95abb1",
+      "brand": "auntie",
+      "name": "去火羽衣纤体瓶海南版",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-b806470b17d2ba5c",
+      "brand": "auntie",
+      "name": "去火羽衣纤体瓶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cf9ecea283c9411c",
+      "brand": "auntie",
+      "name": "QQ桃桃奶绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a7f661cb1725fb40",
+      "brand": "auntie",
+      "name": "去火羽衣纤体瓶（1L）海南版",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-b32aee57f1d73026",
+      "brand": "auntie",
+      "name": "抹掉蕉绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-de4ab754b83ae620",
+      "brand": "auntie",
+      "name": "不蕉不躁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-22e92a00db7a2edf",
+      "brand": "auntie",
+      "name": "芝香巴拿拿拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-dd8f0224aeda5517",
+      "brand": "auntie",
+      "name": "芝香巴拿拿拿铁（IIAC金奖豆）",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-27a9a5614b33fbb0",
+      "brand": "auntie",
+      "name": "热超嗲草莓大福",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-c80504e554fafba8",
+      "brand": "auntie",
+      "name": "西红柿蛋花汤",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-1992895302be4860",
+      "brand": "auntie",
+      "name": "千目抹茶莓莓",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-4ff3fd9a3d4ff016",
+      "brand": "auntie",
+      "name": "超糯溏心木薯椰椰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2fd894bfb5337596",
+      "brand": "auntie",
+      "name": "超糯溏心木薯椰椰（海南版）",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-ad438a0f29ff8886",
+      "brand": "auntie",
+      "name": "超糯溏心木薯糖水（清爽版）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-48ad073f3750eaee",
+      "brand": "auntie",
+      "name": "超糯溏心木薯糖水（清爽版）（海南版）",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-5f83ded5aece1500",
+      "brand": "auntie",
+      "name": "烤椰拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-77e216de248754a0",
+      "brand": "auntie",
+      "name": "烤椰拿铁（IIAC金奖豆）",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-46f954dddf6bc574",
+      "brand": "auntie",
+      "name": "热波波奶茶（珍珠奶茶）",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-955420abb767b8fb",
+      "brand": "auntie",
+      "name": "热手作黑糖波波牛乳茶",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-008438c33b9ff2d1",
+      "brand": "auntie",
+      "name": "兰香奶绿",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-30fa3497fa61a640",
+      "brand": "auntie",
+      "name": "布蕾烤椰波波奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2e9dd75d29e44115",
+      "brand": "auntie",
+      "name": "好大一桶百香芒果双重奏",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8044227f701aa3e4",
+      "brand": "auntie",
+      "name": "山野金果冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6c2d3806da8384ff",
+      "brand": "auntie",
+      "name": "冰蓝潮汐拿铁（IIAC金奖豆）",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-5028969d1cff8d1b",
+      "brand": "auntie",
+      "name": "冰柠潮汐美式（IIAC金奖豆）",
+      "status": "withdrawn",
+      "reason": "规格/包材重复，或尚缺独立核验，不单列收录"
+    },
+    {
+      "id": "menu-777b619629a91e43",
+      "brand": "auntie",
+      "name": "潮汐漫椰（冰蓝海盐香椰）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-14c92464c3e5e2c3",
+      "brand": "chayan",
+      "name": "声声乌龙",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-67cb81adcfa0e20f",
+      "brand": "chayan",
+      "name": "素颜锡兰",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-309b868665055739",
+      "brand": "chayan",
+      "name": "桂花弄",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-a0dde367f66dadce",
+      "brand": "chayan",
+      "name": "【咸】柚得半日闲·果乳茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-82acde9d21c0c249",
+      "brand": "chayan",
+      "name": "天天在向阳·冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-39706136ca5d6ba7",
+      "brand": "chayan",
+      "name": "幽兰拿铁·奶油顶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-94051d9afee081e9",
+      "brand": "chayan",
+      "name": "蔓越阑珊·奶油顶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f6c1fc813e665580",
+      "brand": "chayan",
+      "name": "抹茶菩提2.0·奶油顶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2b24792b9c4061b7",
+      "brand": "chayan",
+      "name": "罗曼蒂克·拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c2e3436d3731f151",
+      "brand": "chayan",
+      "name": "钟意咸柠啡·拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-11c276aeaa0fa07e",
+      "brand": "chayan",
+      "name": "【苦】柚在青云端·拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8fb001b7e97ec943",
+      "brand": "chayan",
+      "name": "苦行万里路·美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c2022c14d801055f",
+      "brand": "chayan",
+      "name": "好事多磨More·美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-65220b7ef6995144",
+      "brand": "chayan",
+      "name": "玫瑰香如是·美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-dca1cb2729c0861b",
+      "brand": "chayan",
+      "name": "【甜】惟有柚香如故2.0·果乳茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-561b9d7b0c515457",
+      "brand": "chayan",
+      "name": "生亦如夏花·冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c7447a540a61198f",
+      "brand": "chayan",
+      "name": "事事好结果·冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d77f35fa9374c2b6",
+      "brand": "chayan",
+      "name": "偷摘一颗梅·果乳茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d42f95db8d98e9f6",
+      "brand": "chayan",
+      "name": "麻瓜的黄油世界",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-751dd260769abfa3",
+      "brand": "chayan",
+      "name": "橘子落日",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-412d81df59ace4f1",
+      "brand": "chayan",
+      "name": "杨梅过雨",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-e44b85cb2cecc50c",
+      "brand": "chayan",
+      "name": "忙着去撒野",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-ac1bac7f6a8b2bf5",
+      "brand": "chayan",
+      "name": "酥山-北海道牛乳风味-甜品站",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-a5a4b6216ed0f2ea",
+      "brand": "chayan",
+      "name": "酥山-桂花乌龙味",
+      "status": "withdrawn",
+      "reason": "非单杯饮品或套餐/甜品，移出饮品图鉴"
+    },
+    {
+      "id": "menu-4de95ac9c93a67ff",
+      "brand": "chayan",
+      "name": "梨园花腔（拿铁）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c2cd8543f6d92561",
+      "brand": "chayan",
+      "name": "梨园花腔（美式）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5a8f12c584f835e0",
+      "brand": "chayan",
+      "name": "【咸】柚得半日闲",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9f4902aa4f5b7fd9",
+      "brand": "chayan",
+      "name": "【苦】柚在青云端",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3350821b7beb6a93",
+      "brand": "chayan",
+      "name": "梨园花腔",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-cf4583a44b554a57",
+      "brand": "chayan",
+      "name": "有点小梨想",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-33e6367e7a7565b5",
+      "brand": "chayan",
+      "name": "【甜】惟有柚香如故2.0",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-74ef70dafd066103",
+      "brand": "chayan",
+      "name": "【辛】柚现山葵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b3632be69e771ed7",
+      "brand": "chayan",
+      "name": "【酸】柚逢少年气",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-87aeea9960e6a538",
+      "brand": "chayan",
+      "name": "少年时",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-7eda8e86ea8202d8",
+      "brand": "luckin",
+      "name": "生椰拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-1d1874c5bdd76a33",
+      "brand": "luckin",
+      "name": "拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-e62fe4f2724137ca",
+      "brand": "luckin",
+      "name": "标准美式",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-e6a1b6be086cbe53",
+      "brand": "luckin",
+      "name": "美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-75f44f3d857b5fdc",
+      "brand": "luckin",
+      "name": "丝绒拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-45b37ec7e1f549dc",
+      "brand": "luckin",
+      "name": "香草拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-405103f7837a9c9b",
+      "brand": "luckin",
+      "name": "卡布奇诺",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6c2a3753926db246",
+      "brand": "luckin",
+      "name": "焦糖玛奇朵",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-84dcea97178e14b0",
+      "brand": "luckin",
+      "name": "陨石拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-84c33680b5746d6a",
+      "brand": "luckin",
+      "name": "橙C美式",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-70eba36896db5472",
+      "brand": "luckin",
+      "name": "冰吸生椰拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-3cbfa9bdee97b192",
+      "brand": "luckin",
+      "name": "小黄油拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-3be51738821336aa",
+      "brand": "luckin",
+      "name": "小黄油曲奇拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-aedcd806526692d1",
+      "brand": "luckin",
+      "name": "可可康宝蓝",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0beb514de9c575b7",
+      "brand": "luckin",
+      "name": "经典珍珠奶茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-5c63ad93eaae697e",
+      "brand": "luckin",
+      "name": "百香果凤梨冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-1ab19722afdb3010",
+      "brand": "luckin",
+      "name": "手冲·哥斯达黎加布伦卡",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b309c2897442343e",
+      "brand": "luckin",
+      "name": "全冰小黄油美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-42de6a11c6d137d1",
+      "brand": "luckin",
+      "name": "小黄油美式",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-52216a8934e00c15",
+      "brand": "luckin",
+      "name": "云南·拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c9181adbb97ce1ac",
+      "brand": "luckin",
+      "name": "曼特宁·拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-99675937ac398edd",
+      "brand": "luckin",
+      "name": "云南·美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-20d6d5ea1a9b93c4",
+      "brand": "luckin",
+      "name": "曼特宁·美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b345f3243155ed36",
+      "brand": "luckin",
+      "name": "流心芝士拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-463f70ccc015ec97",
+      "brand": "luckin",
+      "name": "高蛋白椰蓝酸奶饮",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-89450101adc49f02",
+      "brand": "luckin",
+      "name": "高蛋白莓果酸奶饮",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-d75cfff712e71403",
+      "brand": "luckin",
+      "name": "椰蓝酸奶饮",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-730dc635a3090de1",
+      "brand": "luckin",
+      "name": "莓果酸奶饮",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-af5a729b3442d1d4",
+      "brand": "luckin",
+      "name": "黑糖珍珠牛乳茶（干净版）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-acea83b2b9fc0180",
+      "brand": "luckin",
+      "name": "秋山楂美式",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-41220c372fc4a528",
+      "brand": "luckin",
+      "name": "秋桂米酿拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-419ef3a6a925c865",
+      "brand": "luckin",
+      "name": "黑糖珍珠泰奶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-f7ec757c126e2080",
+      "brand": "luckin",
+      "name": "黑糖泰奶碎碎冰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-41bb2c8cd17d9697",
+      "brand": "luckin",
+      "name": "咸芝士·豆乳茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-c9b9c828f8ba460d",
+      "brand": "luckin",
+      "name": "咸芝士·豆乳拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8ab9f4d7eb6a6c07",
+      "brand": "luckin",
+      "name": "咸芝士·豆乳鸳鸯拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0eb07f4a4cd729b0",
+      "brand": "luckin",
+      "name": "抹茶奶酪拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-58aae92816dffaec",
+      "brand": "luckin",
+      "name": "瑰夏白冷萃",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-3cafa4fc7a86902c",
+      "brand": "luckin",
+      "name": "手冲·肯尼亚佳琪莎",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a98a7eb68a4faacf",
+      "brand": "luckin",
+      "name": "苹果派",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-9c56d26f39c10999",
+      "brand": "luckin",
+      "name": "百香果凤梨冰沙冷萃",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3be2a29b238a686f",
+      "brand": "luckin",
+      "name": "咸法酪泰奶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-71df72e0762a916c",
+      "brand": "luckin",
+      "name": "紫苏桃气泡美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-ed73fdaa3bb3f6a4",
+      "brand": "luckin",
+      "name": "紫苏桃气泡水",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c1a68d0340d76626",
+      "brand": "luckin",
+      "name": "苹果碰",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a892bd31d0521cad",
+      "brand": "luckin",
+      "name": "轻咖椰子水",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a1b978903b10fb38",
+      "brand": "luckin",
+      "name": "杏运奇兰苹果冰茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-420676361c6c6eee",
+      "brand": "luckin",
+      "name": "鲜橙茉莉冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-0fc33e09c296eae0",
+      "brand": "luckin",
+      "name": "经典泰奶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-004d6ae2a622e99e",
+      "brand": "luckin",
+      "name": "泰奶鸳鸯拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6ba962b2630d9378",
+      "brand": "luckin",
+      "name": "青芒美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c8784c8fbf28cc3b",
+      "brand": "luckin",
+      "name": "青芒冰茶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-db71974333983178",
+      "brand": "luckin",
+      "name": "皇后限定苹果拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b582c19c0d6b62d8",
+      "brand": "luckin",
+      "name": "皇后限定苹果C冰茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-dbfca4e8b28cc07c",
+      "brand": "luckin",
+      "name": "皇后限定苹果C美式",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-2e7ec3a126721d80",
+      "brand": "luckin",
+      "name": "奶霜茉莉",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-6df7f49d1d2689ac",
+      "brand": "luckin",
+      "name": "轻巧莓",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-39e67d3062cc8688",
+      "brand": "luckin",
+      "name": "紫葡萄茉莉冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-31ecfee8d5b900b4",
+      "brand": "luckin",
+      "name": "小苹果茉莉冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b404322c1b5a2839",
+      "brand": "luckin",
+      "name": "柠檬茉莉冰奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-8e28c19f0266fb1f",
+      "brand": "luckin",
+      "name": "大西瓜茉莉冰奶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-c44f6cf18f979504",
+      "brand": "luckin",
+      "name": "桂花米酿拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-af30c506cc43fdd5",
+      "brand": "luckin",
+      "name": "桂花米酿乌龙",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-da6560836f3166fe",
+      "brand": "luckin",
+      "name": "手冲·云南孟连",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-3d0f18351fb82016",
+      "brand": "luckin",
+      "name": "大菠萝生椰冷萃",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-dd765cd440bf52aa",
+      "brand": "luckin",
+      "name": "百香果凤梨气泡水（鲜柠）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-bea899a52a3de761",
+      "brand": "luckin",
+      "name": "大菠萝海盐气泡水（鲜柠）",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-c5da50e3d72336d6",
+      "brand": "luckin",
+      "name": "椰芙佳朵拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-904c7de85fd3877f",
+      "brand": "luckin",
+      "name": "百香果C冰茶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-5364f312fa3c6f2a",
+      "brand": "luckin",
+      "name": "百香果C美式",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-cf6d715511b50416",
+      "brand": "luckin",
+      "name": "小奶酪拿铁",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-a25fa5f3a04c33f1",
+      "brand": "luckin",
+      "name": "绿沙沙拿铁",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-54c04b8d7f5be86f",
+      "brand": "luckin",
+      "name": "乳酸菌美式(含百亿活菌吸管)",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-b8428e855b9e74a9",
+      "brand": "luckin",
+      "name": "紫苏桃",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-264304416486f249",
+      "brand": "luckin",
+      "name": "鲜牛奶",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-f076e956a87243d8",
+      "brand": "luckin",
+      "name": "瑰夏云朵冷萃",
+      "status": "withdrawn",
+      "reason": "只有聚合菜单依据，本轮未取得独立证据，先撤下；不等于判定不存在"
+    },
+    {
+      "id": "menu-5b1f661d96c23576",
+      "brand": "luckin",
+      "name": "大西瓜生椰冷萃",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    },
+    {
+      "id": "menu-bbcc7f68c50a73a6",
+      "brand": "luckin",
+      "name": "荔枝茉莉冰奶",
+      "status": "retained",
+      "reason": "已补充独立存在证据"
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Collect factual product/ingredient summaries, never reviews or full descriptions."""
+"""Discover unverified candidates only. Never write the shipped catalog.
+
+Review candidates against independent evidence in data/catalog-evidence.json,
+then run build-audited-catalog.cjs. A populated ingredient list is not proof
+that a product exists or belongs to the claimed brand.
+"""
 import concurrent.futures as cf,hashlib,html,json,pathlib,re,time,urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1];CACHE=ROOT/'build'/'menu-cache';CACHE.mkdir(parents=True,exist_ok=True)
 BRANDS=[('yidian','一点点','yi-dian-dian'),('coco','CoCo都可','coco-dou-ke'),('chagee','霸王茶姬','ba-wang-cha-ji'),('mixue','蜜雪冰城','mi-xue-bing-cheng'),('guming','古茗','gu-ming'),('heytea','喜茶','xi-cha'),('nayuki','奈雪的茶','nai-xue-de-cha'),('molly','茉莉奶白','mo-li-nai-bai'),('chabaidao','茶百道','cha-bai-dao'),('auntie','沪上阿姨','hu-shang-a-yi'),('chayan','茶颜悦色','cha-yan-yue-se'),('luckin','瑞幸咖啡','rui-xing-ka-fei')]
@@ -61,7 +66,7 @@ def detail(item):
   motif=next((m for m,tokens in MOTIFS if any(t in item['name'] for t in tokens)),'milk')
   if item['brand']=='luckin' and any(t in item['name'] for t in ['拿铁','美式','冷萃','咖啡','澳瑞白','卡布奇诺','摩卡','康宝蓝']):motif='coconut-latte' if '椰' in item['name'] else 'coffee-dark' if any(t in item['name'] for t in ['美式','冷萃']) else 'coffee-latte'
   elif motif=='milk' and any(t in item['name'] for t in ['纯茶','红茶','绿茶','春茶','乌龙','观音','折桂令','山茶']):motif='tea'
-  return {'id':'menu-'+hashlib.sha256((item['brand']+':'+norm(item['name'])).encode()).hexdigest()[:16],'brand':item['brand'],'name':item['name'],'aliases':list(dict.fromkeys(item['aliases'])),'ingredients':ingredients,'flavor':' · '.join(ingredients[:3]) if ingredients else '配料待核对 · 按单品主题绘制','source':[expected+' · '+item['name']+'资料',item['url'],'第三方菜单 · 非实时，区域与季节版本可能不同'],'color':COLORS[motif],'motif':motif,'verified':bool(ingredients),'checkedAt':'2026-10-20'}
+  return {'id':'menu-'+hashlib.sha256((item['brand']+':'+norm(item['name'])).encode()).hexdigest()[:16],'brand':item['brand'],'name':item['name'],'aliases':list(dict.fromkeys(item['aliases'])),'ingredients':ingredients,'flavor':' · '.join(ingredients[:3]) if ingredients else '配料待核对 · 按单品主题绘制','source':[expected+' · '+item['name']+'资料',item['url'],'第三方菜单 · 非实时，区域与季节版本可能不同'],'color':COLORS[motif],'motif':motif,'verified':False,'existenceVerified':False,'candidateOnly':True,'checkedAt':'2026-10-20'}
  except Exception as e:print('DETAIL FAILED',item['brand'],item['name'],type(e).__name__,flush=True);return None
 if __name__=='__main__':
  with cf.ThreadPoolExecutor(max_workers=4) as p:menus=list(p.map(menu,BRANDS))
@@ -70,5 +75,5 @@ if __name__=='__main__':
  icons={b[0]:{'url':icon,'source':f'https://www.nckfhsm.com/brands/{b[2]}/menu/available'} for b,_,icon in menus if isinstance(icon,str) and icon.startswith('https://')}
  (ROOT/'build'/'brand-icons.json').write_text(json.dumps(icons,ensure_ascii=False,indent=2))
  data={'brands':[{'id':'luckin','name':'瑞幸咖啡','mark':'瑞幸咖啡','color':'#254675','aliases':['瑞幸咖啡','瑞幸','luckincoffee','luckin']}],'drinks':drinks}
- (ROOT/'web'/'catalog-extra.js').write_text('/* Factual menu metadata only. Sources and check dates are per item. */\n(function(root){const data='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';root.TeaCatalogExtra=data;if(typeof module!=="undefined")module.exports=data;})(typeof window==="undefined"?globalThis:window);\n')
+ (ROOT/'build'/'unverified-candidates.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
  print('COMPLETE',len(drinks),'items;',len(icons),'brand marks',flush=True)

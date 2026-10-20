@@ -2,15 +2,15 @@
 
 把每天的奶茶标签，变成日历里的一张蜡笔贴纸。一个优先本地、无需账号或 AI 密钥的奶茶打卡程序。
 
-[下载 Mac 安装包](https://github.com/wxu430375-cloud/tea-diary/raw/refs/heads/main/downloads/TeaDiary-1.1.0-macos-arm64.dmg) · [下载源码](https://github.com/wxu430375-cloud/tea-diary/archive/refs/heads/main.zip)
+[下载 Mac 安装包](https://github.com/wxu430375-cloud/tea-diary/raw/refs/heads/main/downloads/TeaDiary-1.1.1-macos-arm64.dmg) · [下载源码](https://github.com/wxu430375-cloud/tea-diary/archive/refs/heads/main.zip)
 
 ![统一的杯身品牌标识](docs/preview-logos-v11.png)
 
-![瑞幸咖啡图鉴](docs/preview-luckin-v11.png)
+![桃胶木薯炖奶及存在依据](docs/preview-cassava-v111.png)
 
 ## 下载与安装
 
-`dist/茶茶手账-1.1.0-macos-arm64.dmg` 是 Apple Silicon Mac 安装包，要求 macOS 13 或更新系统。打开后将「茶茶手账」拖入 Applications。安装版使用系统 WebKit 与 Apple Vision，无需 Node、Python 或 Java。
+`dist/茶茶手账-1.1.1-macos-arm64.dmg` 是 Apple Silicon Mac 安装包，要求 macOS 13 或更新系统。打开后将「茶茶手账」拖入 Applications。安装版使用系统 WebKit 与 Apple Vision，无需 Node、Python 或 Java。
 
 当前安装包为本地临时签名，未经过 Apple 开发者签名和公证；macOS 可能要求首次使用「右键 → 打开」。不建议关闭系统安全保护。Intel Mac 可在对应机器上从源码构建；Windows/Linux 当前只有浏览器本地版，没有原生安装包。
 
@@ -18,13 +18,17 @@
 
 - 上传 JPG、PNG、WebP 奶茶标签，使用 Apple Vision 离线识别简体/繁体中文和英文。
 - 匹配品牌、单品；识别糖度与冰量，保存前可核对、修改。
-- 首版收录 **12 个品牌、492 款饮品（含瑞幸78款）**，每项有来源与核对日期；并非所有在售菜单，也不会后台联网更新。
+- 当前收录 **12 个品牌、167 款有存在证据的饮品（含瑞幸50款）**。含瑞幸「柚C美式」与古茗「桃胶木薯炖奶」。每款可查看品牌菜单、发布、公司披露或实物售卖记录；含历史和区域款，并非当前所有门店在售菜单。
 - 记录日期、实际上传时间、品牌、单品、心情、备注、照片与识别文字。同一天可以记多杯。
 - 月历、单日详情、品牌/原料搜索、贴纸图鉴、累计统计。
 - 按食材主题创作的蜡笔插画与可复现的手绘贴纸；可导出独立 SVG 贴纸。
 - 自定义单品、主要原料、颜色和手绘元素。
 - JSON 完整导出/恢复，包含标签照片；恢复前明确确认替换。
 - 空白启动。设置里的「示例手账」只存于内存，不会写入真实数据。
+
+v1.1.1 对原492条逐项给出审核结果：保留85条，撤下407条，另补入82条有明确证据的产品。证据不足不等于不存在，但不进入内置图鉴。修正「白兰抹茶」蛋糕误入饮品库的问题，正确饮品为「抹茶白兰」。瑞幸「经典珍珠奶茶」有2026年10月12日上新记录，保留准确名称与依据。移出图鉴的单品仍以原始快照保留在用户旧日记中，可查看、修改和导入备份。
+
+[逐款证据清单](docs/catalog-evidence.md) · [全部492条审核结果](docs/catalog-audit.json) · [收录规则](docs/sources.md)。未证实的配料为空，名称存在与配方核实分别记录。
 
 ## 数据保存在何处
 
@@ -69,6 +73,7 @@ OCR 负责读字；单品匹配使用品牌别名、完整产品名、产品别�
 node tests/matching.cjs
 node tests/backup.cjs
 node tests/catalog-update.cjs
+node tests/catalog-retirement.cjs
 node --check web/app.js
 bash scripts/build-mac.sh
 bash scripts/package-mac.sh
