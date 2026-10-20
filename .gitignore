@@ -8,3 +8,6 @@ __pycache__/
 .env*
 *.log
 journal*.json
+
+# User-provided visual reference; excluded from public source.
+955a8f9978964eaaa3b22e3a8ed476e3.jpg
