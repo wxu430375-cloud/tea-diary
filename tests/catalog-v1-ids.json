@@ -1,0 +1,187 @@
+[
+  {
+    "id": "drink-0",
+    "brand": "yidian",
+    "name": "苹果茉莉绿"
+  },
+  {
+    "id": "drink-1",
+    "brand": "yidian",
+    "name": "苹果奶绿"
+  },
+  {
+    "id": "drink-2",
+    "brand": "yidian",
+    "name": "可可芭蕾"
+  },
+  {
+    "id": "drink-3",
+    "brand": "yidian",
+    "name": "波霸奶茶"
+  },
+  {
+    "id": "drink-4",
+    "brand": "yidian",
+    "name": "四季奶青"
+  },
+  {
+    "id": "drink-5",
+    "brand": "yidian",
+    "name": "A2牛乳红茶"
+  },
+  {
+    "id": "drink-6",
+    "brand": "yidian",
+    "name": "六窨茉莉绿茶"
+  },
+  {
+    "id": "drink-7",
+    "brand": "yidian",
+    "name": "四季春茶"
+  },
+  {
+    "id": "drink-8",
+    "brand": "yidian",
+    "name": "15颗龙眼茉莉绿"
+  },
+  {
+    "id": "drink-9",
+    "brand": "yidian",
+    "name": "15颗龙眼椰奶绿"
+  },
+  {
+    "id": "drink-10",
+    "brand": "yidian",
+    "name": "荔枝奶绿"
+  },
+  {
+    "id": "drink-11",
+    "brand": "coco",
+    "name": "红果小姐姐"
+  },
+  {
+    "id": "drink-12",
+    "brand": "coco",
+    "name": "鲜百香双响炮"
+  },
+  {
+    "id": "drink-13",
+    "brand": "coco",
+    "name": "奶茶三兄弟"
+  },
+  {
+    "id": "drink-14",
+    "brand": "coco",
+    "name": "生椰杨枝甘露"
+  },
+  {
+    "id": "drink-15",
+    "brand": "coco",
+    "name": "芒果阿达子"
+  },
+  {
+    "id": "drink-16",
+    "brand": "chagee",
+    "name": "伯牙绝弦"
+  },
+  {
+    "id": "drink-17",
+    "brand": "chagee",
+    "name": "青沫观音"
+  },
+  {
+    "id": "drink-18",
+    "brand": "chagee",
+    "name": "青青糯山"
+  },
+  {
+    "id": "drink-19",
+    "brand": "chagee",
+    "name": "桂馥兰香"
+  },
+  {
+    "id": "drink-20",
+    "brand": "chagee",
+    "name": "白雾红尘"
+  },
+  {
+    "id": "drink-21",
+    "brand": "chagee",
+    "name": "去云南·玫瑰普洱"
+  },
+  {
+    "id": "drink-22",
+    "brand": "mixue",
+    "name": "冰鲜柠檬水"
+  },
+  {
+    "id": "drink-23",
+    "brand": "mixue",
+    "name": "草莓摇摇奶昔"
+  },
+  {
+    "id": "drink-24",
+    "brand": "mixue",
+    "name": "茉莉奶绿"
+  },
+  {
+    "id": "drink-25",
+    "brand": "mixue",
+    "name": "棒打鲜橙"
+  },
+  {
+    "id": "drink-26",
+    "brand": "mixue",
+    "name": "蜜桃四季春"
+  },
+  {
+    "id": "drink-27",
+    "brand": "mixue",
+    "name": "芋圆葡萄"
+  },
+  {
+    "id": "drink-28",
+    "brand": "guming",
+    "name": "云岭茉莉白"
+  },
+  {
+    "id": "drink-29",
+    "brand": "heytea",
+    "name": "多肉葡萄"
+  },
+  {
+    "id": "drink-30",
+    "brand": "molly",
+    "name": "白兰"
+  },
+  {
+    "id": "drink-31",
+    "brand": "molly",
+    "name": "白兰抹茶"
+  },
+  {
+    "id": "drink-32",
+    "brand": "molly",
+    "name": "一朵茉莉花"
+  },
+  {
+    "id": "drink-33",
+    "brand": "chabaidao",
+    "name": "豆乳玉麒麟"
+  },
+  {
+    "id": "drink-34",
+    "brand": "auntie",
+    "name": "血糯米奶茶"
+  },
+  {
+    "id": "drink-35",
+    "brand": "nayuki",
+    "name": "霸气芝士草莓"
+  },
+  {
+    "id": "drink-36",
+    "brand": "chayan",
+    "name": "幽兰拿铁"
+  }
+]

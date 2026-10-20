@@ -1,5 +1,6 @@
 /* Catalog is editorial metadata, never a complete recipe or a live menu. */
 (function(root){
+const extra=typeof module!=="undefined"?require("./catalog-extra.js"):root.TeaCatalogExtra||{brands:[],drinks:[]};
 const sources={
  apple:['一点点 · 苹果系列上新','https://www.alittle-tea.com/latestnews-detail/104/','官方'],
  dot:['一点点 · 饮品介绍','https://www.alittle-tea.com/ourdrinks/','官方'],
@@ -28,7 +29,7 @@ const brands=[
  ['chabaidao','茶百道','茶百道','#527a8c',['茶百道','chabaidao']],
  ['auntie','沪上阿姨','沪上阿姨','#ba746b',['沪上阿姨','aunteajenny']],
  ['chayan','茶颜悦色','茶颜悦色','#a27553',['茶颜悦色','茶顔悅色']]
-].map(([id,name,mark,color,aliases])=>({id,name,mark,color,aliases}));
+].map(([id,name,mark,color,aliases])=>({id,name,mark,color,aliases})).concat(extra.brands);
 const rows=[
  ['yidian','苹果茉莉绿',['苹果茉莉绿茶','苹果绿茶'],['苹果粒','茉莉绿茶'],'清甜果香 · 茉莉花香','apple','#b6ca77','apple'],
  ['yidian','苹果奶绿',[],['苹果','奶绿'],'清甜苹果 · 醇厚奶香','apple','#ced18d','apple'],
@@ -69,11 +70,16 @@ const rows=[
  ['chayan','幽兰拿铁',[],['红茶','奶油'],'红茶涩香 · 奶油柔滑','chayan','#d0b797','milk']
 ];
 const catalog=rows.map((r,i)=>({id:'drink-'+i,brand:r[0],name:r[1],aliases:r[2],ingredients:r[3],flavor:r[4],source:sources[r[5]],color:r[6],motif:r[7],verified:r[3].length>0,checkedAt:'2026-10-20'}));
+const catalogKey=d=>d.brand+":"+normalize(d.name).replace(/[（(](原创|首创|超大杯|特大杯|大杯|中杯)[）)]/g,"");
+const existingByName=new Map(catalog.map(d=>[catalogKey(d),d]));
+for(const d of extra.drinks){const prior=existingByName.get(catalogKey(d));if(prior){prior.aliases=[...new Set([...(prior.aliases||[]),d.name,...d.aliases])].filter(a=>a!==prior.name);if(!prior.ingredients.length&&d.ingredients.length){prior.ingredients=d.ingredients;prior.flavor=d.flavor;prior.source=d.source;prior.verified=d.verified;}}else{catalog.push(d);existingByName.set(catalogKey(d),d);}}
 function normalize(s){return String(s).normalize('NFKC').toLowerCase().replace(/[\s·・の\-—_.,，。:：()（）]/g,'').replace(/點/g,'点').replace(/綠/g,'绿').replace(/檸/g,'柠').replace(/檬/g,'檬').replace(/鮮/g,'鲜').replace(/圓/g,'圆');}
 function matchLabel(text,custom=[]){
  const t=normalize(text); if(!t)return [];
  const brand=brands.find(b=>b.aliases.some(a=>t.includes(normalize(a))));
- return [...catalog,...custom].map(d=>{const names=[d.name,...(d.aliases||[])].map(normalize);const exact=names.some(n=>t.includes(n));const overlap=Math.max(...names.map(n=>{let hits=0;for(let i=0;i<n.length-1;i++)if(t.includes(n.slice(i,i+2)))hits++;return hits/Math.max(1,n.length-1);}));const same=brand?.id===d.brand;let score=exact?(same?1:brand?.id?0.58:0.91):overlap*0.64+(same?0.12:0);return {drink:d,score,reason:exact?(same?'品牌与单品文字匹配':brand?'品牌文字冲突，请核对':'单品文字匹配，请核对品牌'):'相似文字，请确认'};}).filter(r=>r.score>=0.28).sort((a,b)=>b.score-a.score).slice(0,5);
+ const brandToken=brand?.aliases.map(normalize).sort((a,b)=>b.length-a.length).find(a=>t.includes(a));
+ const productText=brandToken?t.replace(brandToken,''):t;
+ return [...catalog,...custom].map(d=>{const names=[d.name,...(d.aliases||[])].map(normalize);const exactNames=names.filter(n=>productText.includes(n));const exact=exactNames.length>0;const matchedLength=Math.max(0,...exactNames.map(n=>n.length));const overlap=Math.max(...names.map(n=>{let hits=0;for(let i=0;i<n.length-1;i++)if(productText.includes(n.slice(i,i+2)))hits++;return hits/Math.max(1,n.length-1);}));const same=brand?.id===d.brand;let score=exact?(same?1:brand?.id?0.58:0.91):overlap*0.64+(same?0.12:0);return {drink:d,score,matchedLength,reason:exact?(same?'品牌与单品文字匹配':brand?'品牌文字冲突，请核对':'单品文字匹配，请核对品牌'):'相似文字，请确认'};}).filter(r=>r.score>=0.28).sort((a,b)=>b.score-a.score||b.matchedLength-a.matchedLength).slice(0,5);
 }
 const api={brands,catalog,matchLabel,normalize};root.TeaCatalog=api;if(typeof module!=='undefined')module.exports=api;
 })(typeof window==='undefined'?globalThis:window);
