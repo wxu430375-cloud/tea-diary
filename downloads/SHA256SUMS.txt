@@ -1,0 +1,1 @@
+fb91c4c90686cc29355409bc9f3c01b0a3ccd218af9d0c1b6a3287c027ff9363  TeaDiary-1.0.0-macos-arm64.dmg
