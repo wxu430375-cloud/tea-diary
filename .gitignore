@@ -1,0 +1,10 @@
+.DS_Store
+build/
+dist/
+__pycache__/
+*.pyc
+*.dmg
+*.zip
+.env*
+*.log
+journal*.json
