@@ -15,3 +15,7 @@
 ## v1.1.1 资料核验
 
 运行时仅收录 `data/catalog-evidence.json` 中人工审核过的名称。每款存在依据见 `docs/catalog-evidence.md`，历史492条的处理结果见 `docs/catalog-audit.json`。旧聚合菜单仅作候选发现及品牌图标出处，不再单独承担饮品存在或配料正确性的证明。新旧插画均为主题创作，不是实物照片或配方证明。
+
+## v1.2 食材插画
+
+36张新透明PNG由内置imagegen生成，文件、完整提示词及制作方式见 `docs/illustrations-v12.md`，公开实物/产品图参考链接见 `data/illustration-profiles.json`。参考照片未复制进项目。插画提炼颜色、分层和食材形状，并包含艺术点缀，不代表完整配方或门店当前出杯版本。品牌标识仍由原有独立资源统一叠加。

@@ -2,15 +2,15 @@
 
 把每天的奶茶标签，变成日历里的一张蜡笔贴纸。一个优先本地、无需账号或 AI 密钥的奶茶打卡程序。
 
-[下载 Mac 安装包](https://github.com/wxu430375-cloud/tea-diary/raw/refs/heads/main/downloads/TeaDiary-1.1.1-macos-arm64.dmg) · [下载源码](https://github.com/wxu430375-cloud/tea-diary/archive/refs/heads/main.zip)
+[下载 Mac 安装包](https://github.com/wxu430375-cloud/tea-diary/raw/refs/heads/main/downloads/TeaDiary-1.2.0-macos-arm64.dmg) · [下载源码](https://github.com/wxu430375-cloud/tea-diary/archive/refs/heads/main.zip)
 
-![统一的杯身品牌标识](docs/preview-logos-v11.png)
+![新版食材蜡笔贴纸](docs/preview-ingredients-v12.png)
 
-![桃胶木薯炖奶及存在依据](docs/preview-cassava-v111.png)
+![新版桃胶木薯炖奶](docs/preview-cassava-v12.png)
 
 ## 下载与安装
 
-`dist/茶茶手账-1.1.1-macos-arm64.dmg` 是 Apple Silicon Mac 安装包，要求 macOS 13 或更新系统。打开后将「茶茶手账」拖入 Applications。安装版使用系统 WebKit 与 Apple Vision，无需 Node、Python 或 Java。
+`dist/茶茶手账-1.2.0-macos-arm64.dmg` 是 Apple Silicon Mac 安装包，要求 macOS 13 或更新系统。打开后将「茶茶手账」拖入 Applications。安装版使用系统 WebKit 与 Apple Vision，无需 Node、Python 或 Java。
 
 当前安装包为本地临时签名，未经过 Apple 开发者签名和公证；macOS 可能要求首次使用「右键 → 打开」。不建议关闭系统安全保护。Intel Mac 可在对应机器上从源码构建；Windows/Linux 当前只有浏览器本地版，没有原生安装包。
 
@@ -61,7 +61,11 @@ python3 server.py
 
 OCR 负责读字；单品匹配使用品牌别名、完整产品名、产品别名和相邻字相似度，没有在线大模型。品牌缺失、品牌冲突、未知单品或模糊照片需要人工确认。它不会根据看不见的标签内容猜测配料。上传文件中的文字始终作为数据，不执行指令。
 
-插画是食材主题的创作印象，不是实物图或完整配方证明。v1.1 使用14种蜡笔底图，包含拿铁、美式、生椰咖啡、珍珠奶茶、纯茶和水果茶等主题；相似主题会复用底图。每个品牌只使用一枚固定标识，标识保持原比例、固定尺寸，并逐张校准杯身标签中心。新旧打卡使用同一渲染流程，旧记录无须重建。
+插画是参考公开实物/产品图的创作印象，不是实物照片或完整配方证明。v1.2 新增36张透明蜡笔图，共50种主题；87款饮品使用新图。单品名称优先决定外观，再按食材形状选择相近主题；相似饮品仍可能复用底图。
+
+桃胶木薯炖奶采用白色奶底、黄色木薯块、琥珀色桃胶、银耳和宽口甜品杯；血糯米画成紫红米粒，芋泥与芋圆分别表现为泥状挂壁和小方圆块；奶油碧根果顶、抹茶顶、黄豆粉顶和开心果顶分别绘制。柚C、橙C、苹果C美式分别有不同果汁颜色、果肉装饰及咖啡分层。
+
+每个品牌只使用一枚固定标识，保持原比例、固定尺寸，并逐张校准杯身标签中心。新旧打卡使用同一渲染流程，旧记录无须重建。[36张新图及完整提示词](docs/illustrations-v12.md)，[全部新图预览](docs/preview-all-ingredients-v12.png)，单品映射、参考来源和标签位置见 `data/illustration-profiles.json`。
 
 菜单新增数据来自公开第三方菜单的名称和主要原料摘要，逐项保留单品来源与核对日期；不等于官方完整配方或实时在售清单，不用于过敏原判断。品牌标识来源在 `web/assets/brand-sources-v11.json`。商标归原权利人，本项目与品牌无隶属或授权关系。
 
@@ -74,6 +78,7 @@ node tests/matching.cjs
 node tests/backup.cjs
 node tests/catalog-update.cjs
 node tests/catalog-retirement.cjs
+node tests/sticker-profiles.cjs
 node --check web/app.js
 bash scripts/build-mac.sh
 bash scripts/package-mac.sh

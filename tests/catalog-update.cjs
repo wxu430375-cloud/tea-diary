@@ -8,7 +8,7 @@ assert.equal(audit.items.length,492);assert.equal(new Set(audit.items.map(d=>d.i
 assert.equal(audit.currentCount,api.catalog.length);
 assert.equal(review.groups.reduce((n,g)=>n+g.names.length,0),api.catalog.length);
 for(const b of api.brands)assert(api.catalog.some(d=>d.brand===b.id),b.name);
-const ctx={TeaCatalog:api};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../web/stickers.js'),'utf8'),ctx);
+const ctx={TeaCatalog:api,TeaArtProfiles:require("../web/sticker-profiles.js")};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../web/stickers.js'),'utf8'),ctx);
 for(const d of api.catalog){
  assert.equal(d.existenceVerified,true);
  const g=review.groups.find(g=>g.brand===d.brand&&g.names.includes(d.name));assert(g,d.name+' lacks reviewed evidence');
