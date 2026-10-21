@@ -3,17 +3,19 @@ import WebKit
 import Vision
 import UniformTypeIdentifiers
 
-final class AppDelegate: NSObject, NSApplicationDelegate, WKScriptMessageHandler, WKUIDelegate, WKNavigationDelegate {
+@MainActor final class AppDelegate: NSObject, NSApplicationDelegate, WKScriptMessageHandler, WKUIDelegate, WKNavigationDelegate {
     var window: NSWindow!
     var web: WKWebView!
     let directory = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0].appendingPathComponent("TeaDiary", isDirectory: true)
     var dataFile: URL { directory.appendingPathComponent("journal.json") }
     var storageReadable = true
+    let updater = AppUpdater()
     func applicationDidFinishLaunching(_ notification: Notification) {
         let menu = NSMenu()
         let appMenuItem = NSMenuItem(); menu.addItem(appMenuItem)
         let appMenu = NSMenu(); appMenuItem.submenu = appMenu
         appMenu.addItem(withTitle: "关于茶茶手账", action: #selector(about), keyEquivalent: "")
+        appMenu.addItem(withTitle: "检查更新…", action: #selector(checkForUpdates), keyEquivalent: "")
         appMenu.addItem(.separator())
         appMenu.addItem(withTitle: "显示本地数据文件夹", action: #selector(showData), keyEquivalent: "")
         appMenu.addItem(.separator())
@@ -30,14 +32,23 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKScriptMessageHandler
         window.title = "茶茶手账 · 把快乐装进日历"
         window.minSize = NSSize(width: 780, height: 650)
         window.contentView = web; window.center(); window.makeKeyAndOrderFront(nil)
+        updater.window = window
+        updater.canRestart = { [weak self] completion in
+            self?.web.evaluateJavaScript("!document.querySelector('#entry-form, #custom-form') && !Array.from(pending.values()).length") { value, error in
+                completion(error == nil && value as? Bool == true)
+            }
+        }
         let resources = Bundle.main.resourceURL!.appendingPathComponent("web")
         web.loadFileURL(resources.appendingPathComponent("index.html"), allowingReadAccessTo: resources)
         NSApplication.shared.activate(ignoringOtherApps: true)
     }
     @objc func about() { NSApplication.shared.orderFrontStandardAboutPanel(nil) }
+    @objc func checkForUpdates() { updater.check() }
     @objc func showData() { try? FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true); NSWorkspace.shared.open(directory) }
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
-    func reply(_ id: Int, value: Any = NSNull(), error: String? = nil) {
+    func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply { updater.requestQuit() ? .terminateNow : .terminateCancel }
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) { updater.checkAutomatically() }
+    nonisolated func reply(_ id: Int, value: Any = NSNull(), error: String? = nil) {
         DispatchQueue.main.async {
             guard let data = try? JSONSerialization.data(withJSONObject: [id, value, error as Any? ?? NSNull()], options: [.fragmentsAllowed]), let json = String(data: data, encoding: .utf8) else { return }
             self.web.evaluateJavaScript("window.nativeReply(...\(json))", completionHandler: nil)
@@ -49,6 +60,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKScriptMessageHandler
         let payload = body["payload"]
         do {
             switch action {
+            case "updateCheck":
+                reply(id, value: true)
+                DispatchQueue.main.async { self.updater.check() }
+            case "updatePreferences":
+                if let values = payload as? [String: Any], let enabled = values["automatic"] as? Bool { updater.setAutomatic(enabled) }
+                reply(id, value: ["automatic": updater.automatic])
             case "load":
                 if FileManager.default.fileExists(atPath: dataFile.path) {
                     do { let data = try Data(contentsOf: dataFile); reply(id, value: try JSONSerialization.jsonObject(with: data)) }
@@ -117,8 +134,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate, WKScriptMessageHandler
         if let url = navigationAction.request.url, url.scheme == "https" { NSWorkspace.shared.open(url) }; return nil
     }
 }
-let app = NSApplication.shared
-let delegate = AppDelegate()
-app.setActivationPolicy(.regular)
-app.delegate = delegate
-app.run()
+@main enum TeaDiaryMain {
+    @MainActor static func main() {
+        let app = NSApplication.shared
+        let delegate = AppDelegate()
+        app.setActivationPolicy(.regular)
+        app.delegate = delegate
+        app.run()
+    }
+}

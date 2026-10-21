@@ -12,12 +12,13 @@ APP_DIST="$PWD/dist/茶茶手账.app"
 STAGE=$(mktemp -d /private/tmp/tea-diary-build.XXXXXX)
 trap 'rm -rf "$STAGE"' EXIT
 APP="$STAGE/茶茶手账.app"
-mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
-swiftc -O -module-cache-path "$PWD/build/module-cache" -target "$(uname -m)-apple-macosx13.0" native/TeaDiary.swift -o "$APP/Contents/MacOS/TeaDiary" -framework AppKit -framework WebKit -framework Vision
+mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources" "$APP/Contents/Helpers"
+swiftc -O -module-cache-path "$PWD/build/module-cache" -target "$(uname -m)-apple-macosx13.0" native/TeaDiary.swift native/UpdateCore.swift native/UpdateTrust.swift native/AppUpdater.swift -o "$APP/Contents/MacOS/TeaDiary" -framework AppKit -framework WebKit -framework Vision
+swiftc -O -module-cache-path "$PWD/build/module-cache" -target "$(uname -m)-apple-macosx13.0" native/UpdateInstaller.swift native/UpdateCore.swift native/UpdateTrust.swift -o "$APP/Contents/Helpers/TeaDiaryUpdater" -framework AppKit
 swiftc -O -module-cache-path "$PWD/build/module-cache" native/OCR.swift -o build/tea-ocr -framework Vision -framework AppKit
 ditto --norsrc --noextattr web "$APP/Contents/Resources/web"
 cat > "$APP/Contents/Info.plist" <<PLIST
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>CFBundleExecutable</key><string>TeaDiary</string><key>CFBundleIdentifier</key><string>studio.teacha.diary</string><key>CFBundleName</key><string>茶茶手账</string><key>CFBundleDisplayName</key><string>茶茶手账</string><key>CFBundleShortVersionString</key><string>$APP_VERSION</string><key>CFBundleVersion</key><string>4</string><key>LSMinimumSystemVersion</key><string>13.0</string><key>NSHighResolutionCapable</key><true/><key>CFBundleIconFile</key><string>TeaDiary.icns</string><key>NSHumanReadableCopyright</key><string>茶茶手账 · MIT License</string></dict></plist>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>CFBundleExecutable</key><string>TeaDiary</string><key>CFBundleIdentifier</key><string>studio.teacha.diary</string><key>CFBundleName</key><string>茶茶手账</string><key>CFBundleDisplayName</key><string>茶茶手账</string><key>CFBundleShortVersionString</key><string>$APP_VERSION</string><key>CFBundleVersion</key><string>5</string><key>LSMinimumSystemVersion</key><string>13.0</string><key>NSHighResolutionCapable</key><true/><key>CFBundleIconFile</key><string>TeaDiary.icns</string><key>NSHumanReadableCopyright</key><string>茶茶手账 · MIT License</string></dict></plist>
 PLIST
 if [ -f build/TeaDiary.icns ]; then cp build/TeaDiary.icns "$APP/Contents/Resources/"; fi
 xattr -cr "$APP"

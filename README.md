@@ -2,7 +2,7 @@
 
 把每天的奶茶标签，变成日历里的一张蜡笔贴纸。一个优先本地、无需账号或 AI 密钥的奶茶打卡程序。
 
-[下载 Mac 安装包](https://github.com/wxu430375-cloud/tea-diary/raw/refs/heads/main/downloads/TeaDiary-1.2.0-macos-arm64.dmg) · [下载源码](https://github.com/wxu430375-cloud/tea-diary/archive/refs/heads/main.zip)
+[下载 Mac 安装包](https://github.com/wxu430375-cloud/tea-diary/raw/refs/heads/main/downloads/TeaDiary-1.3.0-macos-arm64.dmg) · [下载源码](https://github.com/wxu430375-cloud/tea-diary/archive/refs/heads/main.zip)
 
 ![新版食材蜡笔贴纸](docs/preview-ingredients-v12.png)
 
@@ -10,7 +10,7 @@
 
 ## 下载与安装
 
-`dist/茶茶手账-1.2.0-macos-arm64.dmg` 是 Apple Silicon Mac 安装包，要求 macOS 13 或更新系统。打开后将「茶茶手账」拖入 Applications。安装版使用系统 WebKit 与 Apple Vision，无需 Node、Python 或 Java。
+`dist/茶茶手账-1.3.0-macos-arm64.dmg` 是 Apple Silicon Mac 安装包，要求 macOS 13 或更新系统。打开后将「茶茶手账」拖入 Applications。安装版使用系统 WebKit 与 Apple Vision，无需 Node、Python 或 Java。
 
 当前安装包为本地临时签名，未经过 Apple 开发者签名和公证；macOS 可能要求首次使用「右键 → 打开」。不建议关闭系统安全保护。Intel Mac 可在对应机器上从源码构建；Windows/Linux 当前只有浏览器本地版，没有原生安装包。
 
@@ -95,3 +95,7 @@ bash scripts/package-mac.sh
 - `scripts/`：可复现构建、打包与标识来源下载脚本。
 
 欢迎通过补充来源、单品别名、OCR 样本和逐款独立插画完善资料库。
+
+## 应用内更新
+
+v1.3.0 支持在应用菜单或数据与备份中检查更新，查看更新说明，一键下载安装并重启。旧版需先手动安装一次 v1.3.0，手账数据保留。[使用与发布说明](docs/app-updates.md)。
